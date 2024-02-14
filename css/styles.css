@@ -26,6 +26,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: var(--col-black-light);
   overflow-x: hidden;
+  width:auto;
  
 }
 
@@ -67,6 +68,7 @@ body {
 /* The header-css */
 .header {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding-left: 2rem;
