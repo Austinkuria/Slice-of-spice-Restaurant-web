@@ -215,13 +215,15 @@ flex-wrap: wrap;
 
 /* The menu-section-css */
 .menu-section {
-  padding: 0 8rem;
+  padding:8rem;
 }
 
 .menu-card-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin: 4rem 0;
 }
 
 .menu-card {
@@ -232,7 +234,6 @@ flex-wrap: wrap;
   align-items: center;
   background-color: #f1f1f1;
   margin: 10px 10px;
-  padding: 1rem;
 }
 
 .menu-card:hover .menu-card-image {
@@ -292,14 +293,22 @@ flex-wrap: wrap;
 .team-section {
   padding: 8rem;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .team-member {
-  width: 20rem;
+  width: 25rem;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
+  margin: auto;
+  padding: 1rem;
+  background-color:rgb(243, 242, 242);
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px var(--col-black);
+  margin: 10px 10px;
 }
 
 .team-member-social svg {
@@ -336,8 +345,10 @@ flex-wrap: wrap;
 .customer-section {
   padding: 8rem;
   display: flex;
-  justify-content: space-between;
-  margin-top: 1rem;
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  
 }
 
 .customer-rating {
@@ -345,6 +356,7 @@ flex-wrap: wrap;
   background-color: #f1f1f1;
   align-items: center;
   padding: 10px 20px;
+  margin: 10px 10px;
 }
 
 .customer-rating:hover {
@@ -397,6 +409,9 @@ flex-wrap: wrap;
 .blog-section {
   padding: 0 8rem;
   display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  justify-content: space-evenly;
 }
 
 .blog-section-card {
